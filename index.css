@@ -3,6 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.age-restiriction {
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 4px;
+    margin: 0 1rem;
+}
 /* header */
 
 header {
@@ -23,7 +30,7 @@ header h1, header div {
 header nav a {
     margin: 0 0.5rem;
     text-decoration: none;
-    color: rgb(59, 58, 58);
+    color: rgb(59, 59, 59);
 }
 
 /* input yazı yazdıkça uzamama */
@@ -66,8 +73,45 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .text-red {
+    color: red;
+}
+.rating-container {
     color: red
+}
+main h2 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+.detail-container p{
+    margin: 1vh 0;
+}
+.btn {
+    background: red;
+    color: white;
+    display: inline-block;
+}
+
+.btn-xl {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
+}
+.btn-xl i {
+    margin-left: -2rem;
+    margin-right: 1rem;
+}
+
+.btn-l {
+    font-size: 1.2rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.5rem;
+    margin: 0.9rem 0;
+}
+.description {
+    width: 50%;
 }
