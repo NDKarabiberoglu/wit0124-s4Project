@@ -1,2 +1,2 @@
-* WitFlix Projesi*
-* HTML / CSS tekrarı*
+* WitFlix Projesi
+* HTML / CSS tekrarı
